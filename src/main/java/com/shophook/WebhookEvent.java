@@ -19,7 +19,7 @@ public class WebhookEvent {
     public WebhookEvent(String eventId, String payload) {
         this.eventId = eventId;
         this.payload = payload;
-        this.status = "RECEIVED";
+        this.status = "SUCESS";
         this.receivedAt = Instant.now();
     }
 
